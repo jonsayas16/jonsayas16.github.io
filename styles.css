@@ -1,0 +1,8 @@
+{
+    test: /\.(scss)$/,
+    use: [{
+      // inject CSS to page
+      loader: 'style-loader'
+    }, {
+      // translates CSS into CommonJS modules
+      loader: 'css-loader'
